@@ -1,0 +1,13 @@
+<nav  class="top-nav">
+  <ul class="nav-list" role="list">
+      <ng-container *ngFor="let i of featureLinks">
+          <li
+            class="nav-list"
+            routerLinkActive="active"
+            [routerLink]="i.link"
+          >
+          <a><span>{{i.name}}</span></a>
+          </li>
+      </ng-container>
+  </ul>
+</nav>

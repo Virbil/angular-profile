@@ -1,0 +1,27 @@
+.top-nav {
+  height: 56px;
+  padding: 2rem 0;
+  background-color: #fff;
+  border-bottom: 8px solid #000225;
+  font-weight: 600;
+  box-shadow: 0 0 2em rgba(0,0,0,.1)
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  gap: 10px;
+
+  &:hover,
+  &:focus,
+  &:active,
+  &:visited {
+    cursor: pointer;
+    color: #000120;
+    text-decoration: underline;
+  }
+}
